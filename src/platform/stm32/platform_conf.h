@@ -95,6 +95,7 @@
   RPCLINE\
   LCDLINE\
   _ROM( AUXLIB_ELUA, luaopen_elua, elua_map )\
+  _ROM( AUXLIB_DAC , luaopen_dac, dac_map )\
   _ROM( LUA_MATHLIBNAME, luaopen_math, math_map )\
   PLATLINE
 

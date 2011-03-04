@@ -54,6 +54,9 @@ LUALIB_API int ( luaopen_bitarray )( lua_State *L );
 #define AUXLIB_ELUA "elua"
 LUALIB_API int ( luaopen_elua )( lua_State *L );
 
+#define AUXLIB_DAC  "dac"
+LUALIB_API int ( luaopen_dac )( lua_State *L );
+
 #define AUXLIB_I2C  "i2c"
 LUALIB_API int ( luaopen_i2c )( lua_State *L );
 
